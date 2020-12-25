@@ -1,0 +1,24 @@
+@media screen and (max-width:700px){
+    header .container{
+    display: flex;
+    flex-direction: column;
+    }
+    .container .titulo{
+        font-size:40px;
+        margin-bottom: 20px;
+    }
+    .botao{
+        margin: 0;        
+        padding: 5px;
+    }
+    .carrosel-filmes{
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
+
+
